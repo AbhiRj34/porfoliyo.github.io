@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/web.css">
+    <title>Oreder your website</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2 data-text="꧁༒☬Oyw☬༒">꧁༒☬Oyw☬༒</h2>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="#" id="home">home</a></li>
+                    <li><a href="about.html">abuot</a></li>
+                    <li><a href="contect.html">contect us</a></li>
+                </ul>
+            </nav>
+            <div class="menu-btn" onclick="togglemenu()">
+                <div class=" menu-btn_burger"></div>
+            </div>
+        </header>
+        <div class="content">
+        <section>
+            <div class="text">
+               <h2 id="well" data-wel="Welcome">Welcome</h2>
+            </div>
+            <p>great welcome on official website for improving your......</p>
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                read more
+            </a>
+        </section>
+        </div>
+    </div>
+    <div class="secondpage">
+        <div class="sec-1">
+          <img 
+          src="image/man-1459246_1280-removebg.png"
+          alt="">
+        </div>
+        <div class="sec-2">
+            <h2>welcome</h2>
+            <p>Website is the most powerful Business tool.<br>It's the new way to design your business.
+             We complete design your businesss online with your website. You can try it.website is the most helpful tool for growing your busness online.
+            There are some plans to take it now.</p>
+        </div>
+    </div>
+    <div class="threepage">
+        <div class="three">
+            <div class="container-0">
+                <div class="box">
+                    <span></span>
+                    <div class="content-0">
+                        <h3>business</h3>
+                        <p>Website is the most powerful Business tool.<br>It's the new way to design your business.
+                            We complete design your businesss online with your website...</p>
+                            <a href="#">
+                                read more
+                            </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <span></span>
+                    <div class="content-0">
+                        <h3>business</h3>
+                        <p>Website is the most powerful Business tool.<br>It's the new way to design your business.
+                            We complete design your businesss online with your website...</p>
+                            <a href="#">
+                                read more
+                            </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <span></span>
+                    <div class="content-0">
+                        <h3>business</h3>
+                        <p>Website is the most powerful Business tool.<br>It's the new way to design your business.
+                            We complete design your businesss online with your website...</p>
+                            <a href="#">
+                                read more
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-0">
+        <h4>discription</h4>
+    <div class="footer">
+        <ul>
+            <li class="main">social links</li>
+            <li><a href="#">facebook</a></li>
+            <li><a href="#">instagram</a></li>
+            <li><a href="#">tiwiter</a></li>
+            <li><a href="#">youtube</a></li>
+        </ul>
+        <ul>
+            <li class="main">your web</li>
+            <li><a href="#">ceo : Abhishek chauhan</a></li>
+            <li><a href="mailto:abhishekchauhan322243@gmail.com">email : abhishekchauhan322243@gmail.com</a></li>
+            <li><a href="#">phone : 6376502672</a></li>
+            <li><a href="#">sms : 8003436508</a></li>
+            <li><a href="#">whates up : 6376502672</a></li>
+        </ul>
+        <ul>
+            <li class="main">page</li>
+            <li><a href="#">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contect.html">contect us</a></li>
+        </ul>
+    </div>
+    <p>copyright (c) ꧁༒☬ABHISHEK☬༒꧂ chauhan official website.</p>
+</div>
+    <script>                                                                                                                                                 
+         var menuList =document.getElementById("menuList");
+
+menuList.style.maxHeight = "0px";                                                          
+
+function togglemenu(){
+
+if (menuList.style.maxHeight == "0px")
+ {
+     menuList.style.maxHeight = "200px";
+ }
+else
+{
+    menuList.style.maxHeight = "0px";
+}
+};
+
+const menuBtn = document.querySelector('.menu-btn');
+let menuOpne = false;
+menuBtn.addEventListener('click',() => {
+if(!menuOpne){
+    menuBtn.classList.add('opne');
+    menuOpne = true;
+}else{
+    menuBtn.classList.remove('opne');
+    menuOpne = false;
+}
+});
+    </script>
+</body>
+</html>
